@@ -39,6 +39,11 @@ a:hover {
     padding-right: 2vw;
 }
 
+.work_experience {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
 footer {
     background: url(images/nav2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
