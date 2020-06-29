@@ -1,9 +1,9 @@
 body {
-    background: url(images/bg7.jpg) no-repeat center center fixed; 
+    /* background: url(images/bg7.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
 }
 .latest_news {
     color: blue;
@@ -25,8 +25,39 @@ body {
     padding-right: 2vw;
 }
 
+.profile_image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: 2s appear 0s 1;
+}
+
 .piedra_text {
     font-family: 'Holtwood One SC', serif;
+    animation: 4s appear 0s 1;
+}
+
+a:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: transparent;
+}
+
+
+/* Animations */
+@keyframes appear {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+}
+
+footer {
+    background: url(images/nav2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
 }
 
 
