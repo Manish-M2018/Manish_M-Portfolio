@@ -1,19 +1,32 @@
 body {
-    background: url('images/bg1.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(images/bg7.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 .latest_news {
     color: blue;
     padding-left: 3vw;
 }
 
+.navbar_background {
+    background: url(images/nav2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10;
+}
+
 .aboutme {
     padding-left: 2vw;
     padding-right: 2vw;
+}
+
+.piedra_text {
+    font-family: 'Holtwood One SC', serif;
 }
 
 
