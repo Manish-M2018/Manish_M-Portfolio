@@ -39,6 +39,16 @@ a:hover {
     padding-right: 2vw;
 }
 
+.walloffame {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 4vw;
+}
+
+.walloffame a:hover {
+    box-shadow: none;
+}
+
 .work_experience {
     padding-left: 2vw;
     padding-right: 2vw;
