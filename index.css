@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
 .latest_news {
     color: blue;
     padding-left: 3vw;
